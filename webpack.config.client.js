@@ -48,10 +48,10 @@ const config = {
                 use: 'file-loader'
             }
         ]
-    }, plugins: [
+    },  plugins: [
           new webpack.HotModuleReplacementPlugin(),
           new webpack.NoEmitOnErrorsPlugin()
-    ]
+      ]
 }
 
 module.exports = config
